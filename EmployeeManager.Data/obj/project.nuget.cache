@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SBOgN6XPmG69kA+o0yYmIvv6CzQmrIPpS5iKiQWNASdwz0czipANI1/e3Qyk7bGK6L4zIY19nophaVUzJRBGZg==",
+  "success": true,
+  "projectFilePath": "C:\\Tutorial Projects\\EmployeeManager\\EmployeeManager.Data\\EmployeeManager.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peikore\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

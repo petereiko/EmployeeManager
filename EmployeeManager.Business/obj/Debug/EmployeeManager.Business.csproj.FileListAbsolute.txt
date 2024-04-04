@@ -1,0 +1,10 @@
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\obj\Debug\EmployeeManager.Business.csproj.AssemblyReference.cache
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\obj\Debug\EmployeeManager.Business.csproj.CoreCompileInputs.cache
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\bin\Debug\EmployeeManager.Business.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\bin\Debug\EmployeeManager.Business.pdb
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\bin\Debug\EmployeeManager.Data.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\bin\Debug\EmployeeManager.Data.pdb
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\bin\Debug\EmployeeManager.Data.dll.config
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\obj\Debug\Employee.DEB06B24.Up2Date
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\obj\Debug\EmployeeManager.Business.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Business\obj\Debug\EmployeeManager.Business.pdb

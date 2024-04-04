@@ -1,0 +1,10 @@
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\bin\Debug\EmployeeManager.Data.dll.config
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\bin\Debug\EmployeeManager.Data.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\bin\Debug\EmployeeManager.Data.pdb
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\bin\Debug\EntityFramework.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\obj\Debug\EmployeeManager.Data.csproj.AssemblyReference.cache
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\obj\Debug\EmployeeManager.Data.csproj.CoreCompileInputs.cache
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\obj\Debug\Employee.10019450.Up2Date
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\obj\Debug\EmployeeManager.Data.dll
+C:\Tutorial Projects\EmployeeManager\EmployeeManager.Data\obj\Debug\EmployeeManager.Data.pdb

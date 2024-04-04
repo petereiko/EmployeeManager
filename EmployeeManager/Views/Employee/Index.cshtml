@@ -1,0 +1,95 @@
+﻿@using EmployeeManager.Business.ViewModels;
+@model IEnumerable<EmployeeViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    int employeeCount = Model.Count();
+}
+
+
+<p>
+    <a href="@Url.Action("Create","Employee")" class="btn btn-primary">Create Employee</a>
+</p>
+@if (employeeCount == 0)
+{
+    <div class="alert alert-danger">No Employee Registered</div>
+}
+else
+{
+    <table class="table table-bordered table-responsive">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    Department
+                </th>
+                <th>
+                    Grade
+                </th>
+                <th>
+                    Created Date
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsActive)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                string backgroundColor = item.IsActive ? "green" : "red";
+                string status = item.IsActive ? "Active" : "Inactive";
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Department.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Grade.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ModifiedDate)
+                    </td>
+                    <td style="background-color:@backgroundColor; color:white">
+                        @status
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
